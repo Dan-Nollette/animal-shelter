@@ -1,5 +1,13 @@
-.animal {
+body {
+  background-color: #0B486B;
+}
 
+.animal {
+  background-color: #CFF09E;
+  float: left;
+  width: 23%;
+  margin: 5px;
+  border: 5px solid #79BD9A;
 }
 
 .elephant {
@@ -16,4 +24,20 @@
 
 .platypus {
 
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.animal h2 {
+  text-align: center;
+}
+
+.animal p {
+  text-align: center;
 }
