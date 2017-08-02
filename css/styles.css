@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Julee');
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
 body {
   background-color: #0B486B;
 }
@@ -6,38 +8,67 @@ body {
   background-color: #CFF09E;
   float: left;
   width: 23%;
-  margin: 5px;
-  border: 5px solid #79BD9A;
+  margin: 2px;
+  border: 3px solid #79BD9A;
+  padding: 0.25%;
 }
 
-.elephant {
-
+.elephant a:hover {
+  color: grey;
 }
 
-.narwhal {
-
+.narwhal a:hover {
+  color: blue;
 }
 
-.pleisiosaur {
-
+.pleisiosaur a:hover {
+  color: green;
 }
 
-.platypus {
-
+.platypus a:hover {
+  color: brown;
 }
 
 img {
-  width: 100%;
+  width: 90%;
+  border: 3px solid #79BD9A;
+  border-radius: 25%;
+  text-align: center;
+
+
 }
 
 h1 {
+  font-size: 60px;
+  font-family: 'Julee', cursive;
   text-align: center;
 }
 
-.animal h2 {
+h3 {
   text-align: center;
+
+}
+
+.animal h2 {
+  font-family: 'Lemonada', cursive;
+  padding: 15px;
+  background-color: #A8DBA8;
+  text-align: center
+
+
 }
 
 .animal p {
   text-align: center;
+}
+
+ul {
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 900px){
+  .animal {
+    width: 90%;
+  }
 }
